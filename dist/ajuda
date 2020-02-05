@@ -1,0 +1,18 @@
+header {
+  display: grid;
+
+  grid-template-columns: repeat(5, 1fr);
+
+  div {
+    background: $dark-color;
+    color: set-text-color($dark-color);
+    padding: 0.5rem;
+    margin: 0.5rem;
+  }
+}
+
+// :hover{
+//   @include transform(rotate(20deg)), 
+// background-color: darken($ligth-color, 10%) darken é uma função predefinida, 1º a cor, 2º qnts % mais escura
+// background-color: lighten($ligth-color, 10%) lighten é uma função predefinida, 1º a cor, 2º qnts % mais clara
+// }

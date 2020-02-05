@@ -1,0 +1,16 @@
+{
+  "name": "ecobit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive --output-style compressed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "embla-carousel": "^2.5.2",
+    "node-sass": "^4.12.0"
+  }
+}
