@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "embla-carousel": "^2.8.1",
+    "embla-carousel": "^2.9.0",
     "node-sass": "^4.13.1"
   }
 }
